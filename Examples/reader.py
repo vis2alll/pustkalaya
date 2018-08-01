@@ -3,7 +3,6 @@
 # Decompiled from: Python 2.7.13 (default, Nov 23 2017, 15:37:09) 
 # [GCC 6.3.0 20170406]
 # Embedded file name: /home/osboxes/Downloads/UIFramework/examples/reader.py
-# Compiled at: 2018-04-24 12:27:42
 from console.ui.menu_window import Menu, MenuItem
 from sugamya_pustakalya import SugamyaPustakalya
 from bookshare import Bookshare
