@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package xmlns="http://openebook.org/namespaces/oeb-package/1.0/" unique-identifier="p9780762453269">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc-metadata xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Title>Sherlock Holmes</dc:Title>
+      <dc:Source>URN:ISBN:978-0-7624-5326-9</dc:Source>
+      <dc:Identifier id="p9780762453269">URN:ISBN:978-0-7624-5326-9</dc:Identifier>
+      <dc:Publisher>Bookshare</dc:Publisher>
+      <dc:Type>Text</dc:Type>
+      <dc:Rights>All rights reserved</dc:Rights>
+      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+      <dc:Identifier scheme="ISBN" id="ID-9780762453269">9780762453269</dc:Identifier>
+      <dc:Creator file-as="Kasius, Jennifer">Jennifer Kasius</dc:Creator>
+      <dc:Language>en-US</dc:Language>
+      <dc:Date>2018-02-13</dc:Date>
+      <dc:Identifier scheme="BKSH" id="bksh-id">Bookshare-1932427_21985052</dc:Identifier>
+    </dc-metadata>
+    <x-metadata>
+      <meta name="cover" content="cover-image" />
+      <meta name="dtb:multimediaType" content="textNCX" />
+      <meta name="dtb:multimediaContent" content="text,image" />
+      <meta name="dtb:sourcePublisher" content="Running Press Miniature Editions" />
+      <meta name="DCTERMS.date.dateCopyrighted" content="2013" />
+      <meta name="Copyright" content="Running Press Miniature Editions" />
+      <meta name="Synopsis" content="A pocket-size tome of the essential Sherlock Holmes mysteries, featuring synopses, character profiles, and illustrations." />
+      <meta name="dtb:sourceRights" content="Running Press Miniature Editions" />
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="xml" href="Sherlock_Holmes.xml" media-type="application/x-dtbook+xml" />
+    <item id="ncx" href="Sherlock_Holmes.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="opf" href="Sherlock_Holmes.opf" media-type="text/xml" />
+    <item id="SMIL1" href="Sherlock_Holmes00001.smil" media-type="application/smil" />
+    <item id="SMIL2" href="Sherlock_Holmes00002.smil" media-type="application/smil" />
+    <item id="daisyTransform" href="daisyTransform.xsl" media-type="application/xslt+xml" />
+    <item id="daisyCss" href="daisy.css" media-type="text/css" />
+    <item id="htmlCss" href="html.css" media-type="text/css" />
+  </manifest>
+  <spine>
+    <itemref idref="SMIL1" />
+    <itemref idref="SMIL2" />
+  </spine>
+</package>

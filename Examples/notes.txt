@@ -1,0 +1,7 @@
+bookshare dwld-request script
+bookshare download_book()
+control f search result 
+download folder ftp path 
+ftp quit in threaded download 
+bookshare login pass then further step
+network fail window
