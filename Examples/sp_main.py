@@ -26,10 +26,11 @@ from login_buffer import LoginBuffer
 from sugamya_pustakalya import SugamyaPustakalya as sp
 from console.core.event_type import EventType
 from _enums import BOOKLIST_WINDOW, LOGIN_WINDOW
+from local_books import downloaded_files
 
 class BookWindow(EditorWindow):
     pass
- 
+
 
 def load_custom_binding():
     registry = Registry(EditorWindow)
@@ -39,7 +40,17 @@ def load_custom_binding():
     from reader import process_choice_selection
     pcs=process_choice_selection(window_name)
 
-
+    @handle(Keys.AltEnter)
+    def _(event):
+        try:
+            event.app.editor.focus(BOOKLIST_WINDOW)
+            event.current_window.buffer._files=downloaded_files()
+            event.current_window.buffer.reset()
+            event.current_window.buffer.emit(EventType.TEXT_CHANGED)  
+        except Exception as e:
+            event.app.editor.error('unknown error %r' % e)
+            
+            
     @handle(Keys.ControlH)       
     def _(event):
         try:
@@ -58,24 +69,26 @@ def load_custom_binding():
                         ]
         pcs.get_user_input(event.app,lst)
         
-    @handle(Keys.Delete)
-    def _(event):
-        try:
-            event.current_window.buffer.delete()
-        except Exception as e:
-            event.app.editor.error('unknown error %r' % e)
+#    @handle(Keys.Delete)
+#    def _(event):
+#        try:
+#            event.current_window.buffer.delete()
+#        except Exception as e:
+#            event.app.editor.error('unknown error %r' % e)
 
-    @handle(Keys.Left)
-    def _(event):
-        try:
-            if event.current_window.buffer._files==[]:
-                event.app.editor.error('No book found')
-            else:
-                event.current_window.buffer.cursor_left()
-        except Exception as e:
-            event.app.editor.error('unable to navigate %r' % e)
+#    @handle(Keys.Left)
+#    @handle(Keys.BackTab)    
+#    def _(event):
+#        try:
+#            if event.current_window.buffer._files==[]:
+#                event.app.editor.error('No book found')
+#            else:
+#                event.current_window.buffer.cursor_left()
+#        except Exception as e:
+#            event.app.editor.error('unable to navigate %r' % e)
 
-    @handle(Keys.Right)
+#    @handle(Keys.Right)
+    @handle(' ')
     def _(event):
         try:
             if event.current_window.buffer._files==[]:
@@ -136,17 +149,18 @@ def load_custom_binding():
 #            choice="2"
 #        if  not handle==None and pcs.menu_lvl in ["1-1"]:
 #            get_book_id_input(event)
-        
+
         
     @handle(Keys.ControlR)
     def _(event):
         if  not pcs.sp==None and pcs.menu_lvl in ["1-1", "1-2", "1-3","1-4-b"]:
             try:
                 lvl=pcs._event.current_window.buffer.lvl
-                book_id=pcs.sp.book_repo[lvl][-1]
+                book_id=pcs.sp.book_repo[lvl][-1][3:]
                 pcs.sp.request_book_download(book_id)
             except Exception as e:
                     event.app.editor.error(' %r ' % e) 
+
 
     @handle(Keys.ControlB)
     def _(event):
@@ -162,7 +176,7 @@ def load_custom_binding():
                 pcs._event.current_window.buffer.go_to_prev_state()
                 pcs.menu_lvl=pcs.prev_menu_lvl
             else:
-                from local_books import downloaded_files
+                
                 try:
                     pcs._event.current_window.buffer._files=downloaded_files()
                     pcs._event.current_window.buffer.reset()
@@ -213,7 +227,7 @@ def load_custom_binding():
         if pcs.menu=="sp" and pcs.menu_lvl in ["1-5"]:
             try:
                 lvl=pcs._event.current_window.buffer.lvl
-                book_id=pcs.sp.book_repo[lvl][0]
+                book_id=pcs.sp.book_repo[lvl][0][3:]
                 event.app.editor.message('downloading...')
                 import threading
                 t=threading.Thread(target=pcs.sp.download_book, args=(book_id,))
@@ -225,7 +239,7 @@ def load_custom_binding():
         if pcs.menu=="bs" and pcs.menu_lvl in ["1-1", "1-2", "1-3-b", "1-4-b","1-m"]:
             try:
                 lvl=pcs._event.current_window.buffer.lvl
-                book_id=pcs.bs.book_repo[lvl][-1]
+                book_id=pcs.bs.book_repo[lvl][-1][3:]
 #                event.app.editor.message('downloading...')
                 pcs.bs.book_download(book_id)
 #                import threading
@@ -262,7 +276,7 @@ def load_custom_binding():
  
 
         if  not handle==None and pcs.menu_lvl in ["1-e","1-3-e"]:
-            from local_books import downloaded_files
+#            from local_books import downloaded_files
             try:
                 pcs._event.current_window.buffer._files=downloaded_files()
                 pcs._event.current_window.buffer.reset()

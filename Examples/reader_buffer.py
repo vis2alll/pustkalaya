@@ -43,16 +43,16 @@ class ReaderBuffer(BufferBase):
     def cursor_right(self):
         self.index+=1
         if self.index > len(self._files[self.lvl])-1:
-            self.index=len(self._files[self.lvl])-1
-#            self.index=0
+#            self.index=len(self._files[self.lvl])-1
+            self.index=0    #circular movement
             
         self.emit(EventType.TEXT_CHANGED)
         
     def cursor_left(self):
         self.index-=1
         if self.index < 0:
-            self.index=0
-#            self.index=len(self._files[self.lvl])-1
+#            self.index=0
+            self.index=len(self._files[self.lvl])-1     #circular movement
             
         self.emit(EventType.TEXT_CHANGED)
     
@@ -61,7 +61,7 @@ class ReaderBuffer(BufferBase):
         self.lvl-=1
         if self.lvl < 0:
             self.lvl = 0
-#            self.lvl=len(self._files)-1
+#            self.lvl=len(self._files)-1    #circular movement
             
         self.emit(EventType.TEXT_CHANGED)
 
@@ -74,7 +74,7 @@ class ReaderBuffer(BufferBase):
         
         if self.lvl > len(self._files)-1:
                 self.lvl = len(self._files)-1
-    #            self.lvl=0
+    #            self.lvl=0     #circular movement
 
 #        if pcs.menu_lvl=="11" and sp.latest_page>1:
 #            self.lvl = len(self._files)

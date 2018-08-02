@@ -5,8 +5,11 @@
 6. add shortcut keys for top/bottom of the page(home/end)+(page up/down)
 13.change shortcut ctrl+B to backspace
 14.remove left/right arrow to tab/shift+tab or tab/circular for book info. traversal
+    //@handle left /right removed but still bound
+
 9. option for quit at any instance
 11.add shortcut ctrl+home (back to download dirctory)
+    //not working on menus
 12.add logger
 10.remove menu : quit
 
@@ -20,6 +23,8 @@
 *download folder ftp path 
 
 4. make API KEY a environment variable 
+
+17. menu shortcuts letters
 
 
 15.how to maintain sessions for login password 

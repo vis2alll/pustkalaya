@@ -133,6 +133,7 @@ class process_choice_selection():
             self.menu_lvl="1-1"
             self.bs.book_repo=[]
             self.bs.latest_page=1
+#            self.show_msg("opening..")
             self.bs.get_latest_books()
             
         elif choice == '2':

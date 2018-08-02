@@ -102,15 +102,11 @@ class SugamyaPustakalya():
                 else:
                     for book in books:
                         row=[]
-                        
-                        
-    #                    book_id=book.getElementsByTagName('id')[0].firstChild.nodeValue
-                        
                         for child in book.childNodes:
                           if(len(child.childNodes)!=0) and child.tagName != "id":
-                            row.append(child.firstChild.nodeValue)
+                            row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
                             
-                        row.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
+                        row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
                         self.book_repo.append(row)
                     
     #                if self.latest_page==1:
@@ -155,15 +151,15 @@ class SugamyaPustakalya():
                     pass
                 else:
 #                        all_ids = []
-                    
                     for book in books:
                         row=[]
                         for child in book.childNodes:
-                          if(len(child.childNodes)!=0  and child.tagName != "id"):
-                            row.append(child.firstChild.nodeValue)
-#                            all_ids.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
-                        row.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
+                          if(len(child.childNodes)!=0) and child.tagName != "id":
+                            row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
+                            
+                        row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
                         self.book_repo.append(row)
+
                 
                 self.pcs._event.app.editor.focus(self.WINDOW)        
                 self.pcs._event.current_window.buffer._files = self.book_repo
@@ -233,15 +229,16 @@ class SugamyaPustakalya():
                     pass
                 else:
 #                        all_ids = []
+
                     
                     for book in books:
                         row=[]
                         for child in book.childNodes:
                           if(len(child.childNodes)!=0  and child.tagName != "id"):
-                            row.append(child.firstChild.nodeValue)
+                            row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
 #                            all_ids.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
                         row=row[::-1]
-                        row.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
+                        row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
                         self.book_repo.append(row)
                 
                 self.pcs._event.app.editor.focus(self.WINDOW)        
@@ -383,7 +380,14 @@ class SugamyaPustakalya():
         
                 if(data.status_code == 200):
                     parsedData = minidom.parseString(data.text)
-    #                print(parsedData.toxml())
+                    
+#                    xml=parsedData.toxml('utf-8')                    
+#                    self.pcs._event.current_window.buffer._files = [[xml]]
+#                    self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
+#                    return
+                    
+                    
+                    
                     count = 1+(self.latest_page-1)*10
                     
                     books = parsedData.getElementsByTagName('result')
@@ -553,14 +557,15 @@ class SugamyaPustakalya():
 #                        self.pcs.menu_lvl="1-4"
                         return
                 else:
+
                     for book in books:
                         row=[]
                         for child in book.childNodes:
                           if(len(child.childNodes)!=0  and child.tagName != "id"):
-                            row.append(child.firstChild.nodeValue[:20])
+                            row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
 #                            all_ids.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
                         row=row[::-1]
-                        row.append(book.getElementsByTagName('id')[0].firstChild.nodeValue)
+                        row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
                         self.book_repo.append(row)
 
  
@@ -573,8 +578,6 @@ class SugamyaPustakalya():
                 self.pcs.menu_lvl="1-4-b"
                 self.pcs.copy_buffer()
                                        
-                    
- 
             else:
                 self.pcs.menu_lvl="1-e"
                 msg="Error, server replied with"+ str(data.status_code)
