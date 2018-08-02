@@ -64,7 +64,7 @@ def load_custom_binding():
                     MenuItem('sugamya pustkalaya','1', lambda app: pcs.choice_selection(event,"1")),
                     MenuItem('bookshare','2', lambda app: pcs.choice_selection(event,"2")),
                     MenuItem('gutenberg','3', lambda app: pcs.choice_selection(event,"3")),
-                    MenuItem('local books','4', lambda app: pcs.choice_selection(event,"4")),
+#                    MenuItem('local books','4', lambda app: pcs.choice_selection(event,"4")),
                     MenuItem('quits','q', lambda app: pcs.choice_selection(event,"q")),
                         ]
         pcs.get_user_input(event.app,lst)
@@ -123,7 +123,7 @@ def load_custom_binding():
         event=args[0]
         book_id=str(args[-1])
         if book_id=="" or ' ' in book_id :
-            get_book_id(event)
+            get_book_id_input(event)
         try:
             pcs.handle.get_book_id(book_id)
             pcs.menu_lvl="1-1-id"

@@ -37,6 +37,8 @@ class Bookshare():
         self.category_name=""
         self.download_threads=[]
         self.login_status=False
+        self.l_book_repo=[]
+        self.p_book_repo=[]
         
         
         self.count=1#
@@ -46,44 +48,46 @@ class Bookshare():
         # Get latest books from bookshare.org
         page=self.latest_page
 #        self.pcs.copy_buffer()
+        
         try:
-            data = requests.get(self.URL + "latest/limit/25/format/xml/page/" + str(page) + "?api_key=" + self.KEY, verify=False) # during production remove verify = false
+            if self.l_book_repo==[]:
+                data = requests.get(self.URL + "latest/limit/25/format/xml/page/" + str(page) + "?api_key=" + self.KEY, verify=False) # during production remove verify = false
+                if(data.status_code == 200):       
+                    parsedData = minidom.parseString(data.text.encode('utf-8'));
+                    
+    #                xml=parsedData.toxml('utf-8')                    
+    #                self.pcs._event.current_window.buffer._files = [[xml]]
+    #                self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
+    #                return
+    
+                    books = parsedData.getElementsByTagName('result')
+                    if(len(books) == 0):
+                        pass
+                    else:
+                        for book in books:
+                            row=[]
+                            row.append('author:'+str(book.getElementsByTagName('author')[0].firstChild.nodeValue.encode('utf-8')))
+                            row.append('title:'+str(book.getElementsByTagName('title')[0].firstChild.nodeValue.encode('utf-8')))
+    #                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
+    #                        if(len(synopsis) != 0):
+    #                            row.append("synopsis:"+synopsis)
+                            row.append('id:'+str(book.getElementsByTagName('id')[0].firstChild.nodeValue.encode('utf-8')))
+                            self.l_book_repo.append(row)
 
-            if(data.status_code == 200):       
-                parsedData = minidom.parseString(data.text.encode('utf-8'));
-                
-#                xml=parsedData.toxml('utf-8')                    
-#                self.pcs._event.current_window.buffer._files = [[xml]]
-#                self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
-#                return
-
-                books = parsedData.getElementsByTagName('result')
-                if(len(books) == 0):
-                    pass
+                    
                 else:
-                    for book in books:
-                        row=[]
-                        row.append('author:'+str(book.getElementsByTagName('author')[0].firstChild.nodeValue.encode('utf-8')))
-                        row.append('title:'+str(book.getElementsByTagName('title')[0].firstChild.nodeValue.encode('utf-8')))
-                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
-                        if(len(synopsis) != 0):
-                            row.append("synopsis:"+synopsis)
-#                        row.append('brief-synopsis:'+str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8')))
-                        row.append('id:'+str(book.getElementsByTagName('id')[0].firstChild.nodeValue.encode('utf-8')))
-                        self.book_repo.append(row)
-                    
-                self.menu_lvl="1-1"
-                self.pcs._event.app.editor.focus(self.WINDOW)   
-                self.pcs._event.current_window.buffer._files = self.book_repo
-                self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
-                self.latest_page+=1
-    #                if self.pcs._event.current_window.buffer.next_page==True :
-    #                    self.pcs._event.app.editor.error("page"+str(self.latest_page))
-                    
-            else:
-                self.pcs.menu_lvl="1-e"
-                msg="Error, server replied with"+ str(data.status_code)
-                self.pcs.show_msg(msg) 
+                    self.pcs.menu_lvl="1-e"
+                    msg="Error, server replied with"+ str(data.status_code)
+                    self.pcs.show_msg(msg) 
+
+            self.book_repo=self.l_book_repo
+            self.menu_lvl="1-1"
+            self.pcs._event.app.editor.focus(self.WINDOW)   
+            self.pcs._event.current_window.buffer._files = self.book_repo
+            self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
+            self.latest_page+=1
+#                if self.pcs._event.current_window.buffer.next_page==True :
+#                    self.pcs._event.app.editor.error("page"+str(self.latest_page))
                 
         except Exception as e:
             self.userid=None
@@ -99,34 +103,38 @@ class Bookshare():
         # Get popular books from bookshare.org
         page=self.latest_page
         try:
-            data = requests.get(self.URL + "popular/limit/25/format/page/" + str(page) + "?api_key=" + self.KEY, verify=False) # during production remove verify = false
-            if(data.status_code == 200):       
-                parsedData = minidom.parseString(data.text.encode('utf-8'));
-                books = parsedData.getElementsByTagName('result')
-                if(len(books) == 0):
-#                        print("No books found")
-                    pass
+            if self.p_book_repo==[]:
+                data = requests.get(self.URL + "popular/limit/25/format/page/" + str(page) + "?api_key=" + self.KEY, verify=False) # during production remove verify = false
+                if(data.status_code == 200):       
+                    parsedData = minidom.parseString(data.text.encode('utf-8'));
+                    books = parsedData.getElementsByTagName('result')
+                    if(len(books) == 0):
+    #                        print("No books found")
+                        pass
+                    else:
+                        for book in books:
+                            row=[]
+                            row.append('author:'+str(book.getElementsByTagName('author')[0].firstChild.nodeValue.encode('utf-8')))
+                            row.append('title:'+str(book.getElementsByTagName('title')[0].firstChild.nodeValue.encode('utf-8')))
+    #                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
+    #                        if(len(synopsis) != 0):
+    #                            row.append("synopsis:"+synopsis)
+                            row.append('id:'+str(book.getElementsByTagName('id')[0].firstChild.nodeValue.encode('utf-8')))
+                            self.p_book_repo.append(row)
+                        
                 else:
-                    for book in books:
-                        row=[]
-                        row.append('author:'+str(book.getElementsByTagName('author')[0].firstChild.nodeValue.encode('utf-8')))
-                        row.append('title:'+str(book.getElementsByTagName('title')[0].firstChild.nodeValue.encode('utf-8')))
-                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
-                        if(len(synopsis) != 0):
-                            row.append("synopsis:"+synopsis)
-#                        row.append('brief-synopsis:'+str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8')))
-                        row.append('id:'+str(book.getElementsByTagName('id')[0].firstChild.nodeValue.encode('utf-8')))
-                        self.book_repo.append(row)
-                    
-                    self.pcs._event.app.editor.focus(self.WINDOW)        
-                    self.pcs._event.current_window.buffer._files = self.book_repo
-                    self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)                            
-                    self.latest_page+=1   
-                    
-            else:
-                self.pcs.menu_lvl="1-e"
-                msg="Error, server replied with"+ str(data.status_code)
-                self.pcs.show_msg(msg)
+                    self.pcs.menu_lvl="1-e"
+                    msg="Error, server replied with"+ str(data.status_code)
+                    self.pcs.show_msg(msg) 
+
+            self.book_repo=self.p_book_repo
+            self.menu_lvl="1-1"
+            self.pcs._event.app.editor.focus(self.WINDOW)   
+            self.pcs._event.current_window.buffer._files = self.book_repo
+            self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
+            self.latest_page+=1
+#                if self.pcs._event.current_window.buffer.next_page==True :
+#                    self.pcs._event.app.editor.error("page"+str(self.latest_page))
                 
         except Exception as e:
             self.userid=None
@@ -178,10 +186,9 @@ class Bookshare():
                         row=[]
                         row.append('author:'+str(book.getElementsByTagName('author')[0].firstChild.nodeValue.encode('utf-8')))
                         row.append('title:'+str(book.getElementsByTagName('title')[0].firstChild.nodeValue.encode('utf-8')))
-                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
-                        if(len(synopsis) != 0):
-                            row.append("synopsis:"+synopsis)
-#                        row.append('brief-synopsis:'+str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8')))
+#                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
+#                        if(len(synopsis) != 0):
+#                            row.append("synopsis:"+synopsis)
                         row.append('id:'+str(book.getElementsByTagName('id')[0].firstChild.nodeValue.encode('utf-8')))
                         self.book_repo.append(row)
 
@@ -276,10 +283,9 @@ class Bookshare():
                         row=[]
                         row.append('author:'+str(book.getElementsByTagName('author')[0].firstChild.nodeValue.encode('utf-8')))
                         row.append('title:'+str(book.getElementsByTagName('title')[0].firstChild.nodeValue.encode('utf-8')))
-                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
-                        if(len(synopsis) != 0):
-                            row.append("synopsis:"+synopsis)
-#                        row.append('brief-synopsis:'+str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8')))
+#                        synopsis = str(book.getElementsByTagName('brief-synopsis')[0].firstChild.nodeValue.encode('utf-8'))                        
+#                        if(len(synopsis) != 0):
+#                            row.append("synopsis:"+synopsis)
                         row.append('id:'+str(book.getElementsByTagName('id')[0].firstChild.nodeValue.encode('utf-8')))
                         self.book_repo.append(row)
 

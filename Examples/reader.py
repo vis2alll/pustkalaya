@@ -50,14 +50,14 @@ class process_choice_selection():
             self.menu="sp"
             self.menu_lvl="1"
             lst = [
-                     MenuItem('Latest books', '1', lambda app: self.sp_choice_selection(app, '1')),
-                     MenuItem('Popular books', '2', lambda app: self.sp_choice_selection(app, '2')),
-                     MenuItem('Search Books', '3', lambda app: self.sp_choice_selection(app, '3')),
-                     MenuItem('Book Categories', '4', lambda app: self.sp_choice_selection(app, '4')),
-                     MenuItem('Downloads', '5', lambda app: self.sp_choice_selection(app, '5')),
-                     MenuItem('Logout', 'l', lambda app: self.sp_choice_selection(app, 'l')),
+                     MenuItem('Latest books', 'l', lambda app: self.sp_choice_selection(app, '1')),
+                     MenuItem('Popular books', 'p', lambda app: self.sp_choice_selection(app, '2')),
+                     MenuItem('Search Books', 's', lambda app: self.sp_choice_selection(app, '3')),
+                     MenuItem('Book Categories', 'c', lambda app: self.sp_choice_selection(app, '4')),
+                     MenuItem('Downloads', 'd', lambda app: self.sp_choice_selection(app, '5')),
+                     MenuItem('Logout', 'x', lambda app: self.sp_choice_selection(app, 'x')),
                      MenuItem('Go Back', 'b', lambda app: self.sp_choice_selection(app, 'b')),
-                     MenuItem('quits', 'q', lambda app: self.sp_choice_selection(app, 'q'))
+#                     MenuItem('quits', 'q', lambda app: self.sp_choice_selection(app, 'q'))
                  ]
     
             
@@ -77,14 +77,14 @@ class process_choice_selection():
             self.menu="bs"
             self.menu_lvl="1"
             lst = [
-                     MenuItem('Latest books', '1', lambda app: self.bs_choice_selection(app, '1')),
-                     MenuItem('Popular books', '2', lambda app: self.bs_choice_selection(app, '2')),
-                     MenuItem('Search Books', '3', lambda app: self.bs_choice_selection(app, '3')),
-                     MenuItem('Book Categories', '4', lambda app: self.bs_choice_selection(app, '4')),
+                     MenuItem('Latest books', 'l', lambda app: self.bs_choice_selection(app, '1')),
+                     MenuItem('Popular books', 'p', lambda app: self.bs_choice_selection(app, '2')),
+                     MenuItem('Search Books', 's', lambda app: self.bs_choice_selection(app, '3')),
+                     MenuItem('Book Categories', 'c', lambda app: self.bs_choice_selection(app, '4')),
 #                     MenuItem('Downloads', '5', lambda app: self.bs_choice_selection(app, '5')),
-                     MenuItem('Logout', 'l', lambda app: self.bs_choice_selection(app, 'l')),
+                     MenuItem('Logout', 'x', lambda app: self.bs_choice_selection(app, 'x')),
                      MenuItem('Go Back', 'b', lambda app: self.bs_choice_selection(app, 'b')),
-                     MenuItem('quits', 'q', lambda app: self.bs_choice_selection(app, 'q'))
+#                     MenuItem('quits', 'q', lambda app: self.bs_choice_selection(app, 'q'))
                  ]
     
 #            if  self.login.login_lvl=="bs":
@@ -161,7 +161,7 @@ class process_choice_selection():
             self.all_urls = {}
             self.bs.get_requested_books()
             
-        elif choice == 'l':
+        elif choice == 'x':
             
             def _on_yes(e):
                 self.bs.logout()
@@ -235,7 +235,7 @@ class process_choice_selection():
             self.all_urls = {}
             self.sp.get_requested_books()
             
-        elif choice == 'l':
+        elif choice == 'x':
             
             def _on_yes(e):
                 self.sp.logout()

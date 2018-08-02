@@ -1,6 +1,8 @@
 
 7. add label for all book related info+tag(current/total books)
 3. maintain individual buffer instances for latest and popular menus
+    //done
+
 5. add find books in current buffer (ctrl+F) then only go to request check 
 6. add shortcut keys for top/bottom of the page(home/end)+(page up/down)
 13.change shortcut ctrl+B to backspace
@@ -24,7 +26,7 @@
 
 4. make API KEY a environment variable 
 
-17. menu shortcuts letters
+17.menu shortcuts letters
 
 
 15.how to maintain sessions for login password 

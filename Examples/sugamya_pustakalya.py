@@ -38,7 +38,8 @@ class SugamyaPustakalya():
         self.category_name=""
         self.download_threads=[]
         self.login_status=False
-
+        self.l_book_repo=[]
+        self.p_book_repo=[]
 
     def check_credentials(self,userid,password):
         self.userid=userid
@@ -83,46 +84,41 @@ class SugamyaPustakalya():
         page=self.latest_page
         self.pcs.menu_lvl="1-1"
         
-#        self.book_repo=[]
-#        pages=[i for i in range(1,5)]
-#        
-#        for page in pages: 
-
-#            data = requests.get(self.URL + 'latest/page/' + str(page) + '/limit/20/format/JSON?API_key=' + self.KEY, verify=False)
         try:
-            data = requests.get(self.URL + 'latest/page/' + str(page) + '/limit/20/format/JSON?API_key=' + self.KEY, verify=False)
-            if(data.status_code == 200):       
-                parsedData = minidom.parseString(data.text);
-                books = parsedData.getElementsByTagName('result')
-                if(len(books) == 0):
-    #                self.pcs._event.app.editor.message("No book found in sp.get_latest_books")
-    #                self.pcs._event.app.editor.focus(self.WINDOW)
-                    pass
+            if self.l_book_repo==[]:
+                 data = requests.get(self.URL + 'latest/page/' + str(page) + '/limit/20/format/JSON?API_key=' + self.KEY, verify=False)
+                 if(data.status_code == 200):       
+                    parsedData = minidom.parseString(data.text);
+                    books = parsedData.getElementsByTagName('result')
+                    if(len(books) == 0):
+        #                self.pcs._event.app.editor.message("No book found in sp.get_latest_books")
+        #                self.pcs._event.app.editor.focus(self.WINDOW)
+                        pass
+                        
+                    else:
+                        for book in books:
+                            row=[]
+                            for child in book.childNodes:
+                              if(len(child.childNodes)!=0) and child.tagName != "id":
+                                row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
+                                
+                            row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
+                            self.l_book_repo.append(row)
+
                     
-                else:
-                    for book in books:
-                        row=[]
-                        for child in book.childNodes:
-                          if(len(child.childNodes)!=0) and child.tagName != "id":
-                            row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
-                            
-                        row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
-                        self.book_repo.append(row)
-                    
-    #                if self.latest_page==1:
-#                self.menu_lvl="1-1"
-                self.pcs._event.app.editor.focus(self.WINDOW)   
-                self.pcs._event.current_window.buffer._files = self.book_repo
-                self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
-                self.latest_page+=1
-                self.pcs.copy_buffer()
-    #                if self.pcs._event.current_window.buffer.next_page==True :
-    #                    self.pcs._event.app.editor.error("page"+str(self.latest_page))
-                    
-            else:
-                self.pcs.menu_lvl="1-e"
-                msg="Error, server replied with"+ str(data.status_code)
-                self.pcs.show_msg(msg)
+                 else:
+                    self.pcs.menu_lvl="1-e"
+                    msg="Error, server replied with"+ str(data.status_code)
+                    self.pcs.show_msg(msg) 
+
+            self.book_repo=self.l_book_repo
+            self.menu_lvl="1-1"
+            self.pcs._event.app.editor.focus(self.WINDOW)   
+            self.pcs._event.current_window.buffer._files = self.book_repo
+            self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
+            self.latest_page+=1
+#                if self.pcs._event.current_window.buffer.next_page==True :
+#                    self.pcs._event.app.editor.error("page"+str(self.latest_page))
 
 
         except Exception as e:
@@ -134,43 +130,41 @@ class SugamyaPustakalya():
          
 
     def get_popular_books(self):
-        # Get popular books from Sugamya Pustakalya
-#        self.book_repo=[]
+        
         page=self.latest_page
-#        pages=[i for i in range(1,2)]
-#        
-#        for page in pages:
         try:
-            data = requests.get(self.URL + "popularbooks/noOfTimesDelivered/1/startDate/2017-01-01/endDate/2017-12-15/page/"+str(page)+"/limit/17/format/xml?API_key=" + self.KEY, verify=False) # during production remove verify = false
-            
-            if(data.status_code == 200):       
-                parsedData = minidom.parseString(data.text);
-                books = parsedData.getElementsByTagName('result')
-                if(len(books) == 0):
-#                        print("No books found")
-                    pass
+            if self.p_book_repo==[]:
+                data = requests.get(self.URL + "popularbooks/noOfTimesDelivered/1/startDate/2017-01-01/endDate/2017-12-15/page/"+str(page)+"/limit/17/format/xml?API_key=" + self.KEY, verify=False) # during production remove verify = false
+                if(data.status_code == 200):       
+                    parsedData = minidom.parseString(data.text);
+                    books = parsedData.getElementsByTagName('result')
+                    if(len(books) == 0):
+    #                        print("No books found")
+                        pass
+                    else:
+    #                        all_ids = []
+                        for book in books:
+                            row=[]
+                            for child in book.childNodes:
+                              if(len(child.childNodes)!=0) and child.tagName != "id":
+                                row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
+                                
+                            row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
+                            self.p_book_repo.append(row)
+                        
                 else:
-#                        all_ids = []
-                    for book in books:
-                        row=[]
-                        for child in book.childNodes:
-                          if(len(child.childNodes)!=0) and child.tagName != "id":
-                            row.append(str(child.localName)+":"+str(child.firstChild.nodeValue))
-                            
-                        row.append("id:"+str(book.getElementsByTagName('id')[0].firstChild.nodeValue))
-                        self.book_repo.append(row)
+                    self.pcs.menu_lvl="1-e"
+                    msg="Error, server replied with"+ str(data.status_code)
+                    self.pcs.show_msg(msg) 
 
-                
-                self.pcs._event.app.editor.focus(self.WINDOW)        
-                self.pcs._event.current_window.buffer._files = self.book_repo
-                self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)                            
-                self.latest_page+=1
-#                self.pcs.copy_buffer()
- 
-            else:
-                self.pcs.menu_lvl="1-e"
-                msg="Error, server replied with"+ str(data.status_code)
-                self.pcs.show_msg(msg)   
+            self.book_repo=self.p_book_repo
+            self.menu_lvl="1-1"
+            self.pcs._event.app.editor.focus(self.WINDOW)   
+            self.pcs._event.current_window.buffer._files = self.book_repo
+            self.pcs._event.current_window.buffer.emit(EventType.TEXT_CHANGED)
+            self.latest_page+=1
+#                if self.pcs._event.current_window.buffer.next_page==True :
+#                    self.pcs._event.app.editor.error("page"+str(self.latest_page))  
                 
         except Exception as e:
             self.userid=None
