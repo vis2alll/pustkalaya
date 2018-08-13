@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <smilCustomTest id="pagenumCustomTest" defaultState="false" override="visible" bookStruct="PAGE_NUMBER" />
+    <meta name="dtb:uid" content="9780755387632" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:generator" content="Bookshare.org" />
+    <meta name="dtb:totalPageCount" content="1" />
+    <meta name="dtb:maxPageNumber" content="" />
+  </head>
+  <docTitle>
+    <text>Sherlock Holmes: The Memoirs of Sherlock Holmes (Sherlock Complete Set 4)</text>
+  </docTitle>
+  <docAuthor>
+    <text>Arthur Conan Doyle</text>
+  </docAuthor>
+  <navMap>
+    <navInfo>
+      <text>Primary navigation is by level</text>
+    </navInfo>
+    <navPoint id="bks_notice" class="navPoint-level-level1" playOrder="1">
+      <navLabel>
+        <text>NOTICE</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#bks_notice_001" />
+    </navPoint>
+    <navPoint id="copyright" class="navPoint-level-level1" playOrder="3">
+      <navLabel>
+        <text>Copyright © 1894 by Arthur Conan Doyle</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#copyright-pvi" />
+    </navPoint>
+    <navPoint id="toc" class="navPoint-level-level1" playOrder="4">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#toc-pvii" />
+    </navPoint>
+    <navPoint id="abouttheauthor" class="navPoint-level-level1" playOrder="5">
+      <navLabel>
+        <text>About the Author</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#h1_000000" />
+    </navPoint>
+    <navPoint id="bytheauthor" class="navPoint-level-level1" playOrder="6">
+      <navLabel>
+        <text>By Sir Arthur Conan Doyle</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#bytheauthor-piv" />
+    </navPoint>
+    <navPoint id="chapter002" class="navPoint-level-level1" playOrder="7">
+      <navLabel>
+        <text>Silver Blaze</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#chapter002-pviii" />
+    </navPoint>
+    <navPoint id="chapter003" class="navPoint-level-level1" playOrder="8">
+      <navLabel>
+        <text>The Yellow Face</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#chapter003-p34" />
+    </navPoint>
+    <navPoint id="chapter004" class="navPoint-level-level1" playOrder="9">
+      <navLabel>
+        <text>The Stockbroker’s Clerk</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00002.smil#chapter004-p59" />
+    </navPoint>
+    <navPoint id="chapter005" class="navPoint-level-level1" playOrder="10">
+      <navLabel>
+        <text>The ‘Gloria Scott’</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00002.smil#chapter005-p82" />
+    </navPoint>
+    <navPoint id="chapter006" class="navPoint-level-level1" playOrder="11">
+      <navLabel>
+        <text>The Musgrave Ritual</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00002.smil#chapter006-p110" />
+    </navPoint>
+    <navPoint id="chapter007" class="navPoint-level-level1" playOrder="12">
+      <navLabel>
+        <text>The Reigate Squires</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00003.smil#chapter007-p136" />
+    </navPoint>
+    <navPoint id="chapter008" class="navPoint-level-level1" playOrder="13">
+      <navLabel>
+        <text>The Crooked Man</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00003.smil#chapter008-p162" />
+    </navPoint>
+    <navPoint id="chapter009" class="navPoint-level-level1" playOrder="14">
+      <navLabel>
+        <text>The Resident Patient</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00003.smil#chapter009-p186" />
+    </navPoint>
+    <navPoint id="chapter010" class="navPoint-level-level1" playOrder="15">
+      <navLabel>
+        <text>The Greek Interpreter</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00004.smil#chapter010-p212" />
+    </navPoint>
+    <navPoint id="chapter011" class="navPoint-level-level1" playOrder="16">
+      <navLabel>
+        <text>The Naval Treaty</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00004.smil#chapter011-p237" />
+    </navPoint>
+    <navPoint id="chapter012" class="navPoint-level-level1" playOrder="17">
+      <navLabel>
+        <text>The Final Problem</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00005.smil#chapter012-p280" />
+    </navPoint>
+  </navMap>
+  <pageList>
+    <navLabel>
+      <text>Pages</text>
+    </navLabel>
+    <pageTarget id="pagenum_000000" playOrder="2" type="normal" value="0">
+      <navLabel>
+        <text>pagenum_000000</text>
+      </navLabel>
+      <content src="Sherlock_Holmes__The_Memoirs00001.smil#pagenum_000000" />
+    </pageTarget>
+  </pageList>
+</ncx>
+

@@ -1,34 +1,88 @@
 
-7. add label for all book related info+tag(current/total books)
+
 3. maintain individual buffer instances for latest and popular menus
+
+//done
+
+14.remove left/right arrow to tab/shift+tab or tab/circular for book info. traversal
+
+    //done replaced with space(circular)
+
+11.add shortcut ctrl+home (back to download dirctory)
+
     //done
 
-5. add find books in current buffer (ctrl+F) then only go to request check 
-6. add shortcut keys for top/bottom of the page(home/end)+(page up/down)
-13.change shortcut ctrl+B to backspace
-14.remove left/right arrow to tab/shift+tab or tab/circular for book info. traversal
-    //@handle left /right removed but still bound
+18. add start and end of the booklist
 
-9. option for quit at any instance
-11.add shortcut ctrl+home (back to download dirctory)
-    //not working on menus
-12.add logger
-10.remove menu : quit
-
-
-8. add search by (general/id/titles) menu options
-
-1. How to show download progress information
-2. In progress Download cacellation option 
-
-
-*download folder ftp path 
-
-4. make API KEY a environment variable 
+   //done
 
 17.menu shortcuts letters
 
+    //done
 
-15.how to maintain sessions for login password 
+7. add label for all book related info+tag(current/total books)
+
+    // done 
+
+10.remove menu : quit
+
+    //removed
+
+4. make API KEY a environment variable
+
+    //done
+
+13.change shortcut ctrl+B to backspace
+
+//done
+
+6. add shortcut keys for top/bottom of the page+(page up/down)
+
+    // done
+
+9. option for quit at any instance
+
+//done
+
+
+
+16.b). add full file path to logger on open cmd
+
+     //done
+
+
+
 16.file management a). listing valid book formats(daisy,epub,pdf)
-                                 b). add full file path to logger on open cmd
+
+   // not clear about how to go  for it  as discussed when user edits or moves folders or files
+
+
+
+8. add search by (general/id/titles) menu options 
+
+// working
+
+
+
+12.add logger
+
+ 15.how to maintain sessions for login password 
+
+1. How to show download progress information
+
+2. In progress Download cacellation option
+
+5. add find books in current buffer (ctrl+F) then only go to request check
+
+
+
+
+
+
+
+
+
+ 
+
+
+

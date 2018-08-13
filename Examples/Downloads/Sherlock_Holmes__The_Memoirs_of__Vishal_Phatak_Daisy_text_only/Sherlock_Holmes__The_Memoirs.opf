@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package xmlns="http://openebook.org/namespaces/oeb-package/1.0/" unique-identifier="ISBN9780755387632">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc-metadata xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Title>Sherlock Holmes: The Memoirs of Sherlock Holmes (Sherlock Complete Set 4)</dc:Title>
+      <dc:Publisher>Bookshare</dc:Publisher>
+      <dc:Rights>Copyright © 2011 by Arthur Conan Doyle</dc:Rights>
+      <dc:Identifier id="ISBN9780755387632" scheme="URN:ISBN">9780755387632</dc:Identifier>
+      <dc:Date>2011-08-04</dc:Date>
+      <dc:Identifier scheme="ISBN" id="ID-9780755387632">9780755387632</dc:Identifier>
+      <dc:Creator file-as="Doyle, Arthur Conan">Arthur Conan Doyle</dc:Creator>
+      <dc:Language>en-US</dc:Language>
+      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+      <dc:Identifier scheme="BKSH" id="bksh-id">Bookshare-1930040_21965103</dc:Identifier>
+    </dc-metadata>
+    <x-metadata>
+      <meta name="cover" content="cover-image" />
+      <meta name="srp-usd" content="6.66" />
+      <meta name="dtb:multimediaType" content="textNCX" />
+      <meta name="dtb:multimediaContent" content="text,image" />
+      <meta name="dtb:sourcePublisher" content="Headline" />
+      <meta name="Synopsis" content="A collection of gripping cases that culminates in the most shocking of all - the notorious, fatal encounter between Sherlock Holmes and Professor Moriarty at the Reichenbach Falls.&amp;apos;He is the Napoleon of Crime...He is the organiser of half that is evil and of nearly all that is undetected in this great city&amp;apos;. A man like Sherlock Holmes has many enemies.  Violent murderers, deviant villains, ghosts of old loves, blackmailers and poisonous scribes, to to name but a few.  But none are so deadly, so powerful, as Professor Moriarty.  Moriarty - the only man who can compete with Holmes&amp;apos; genius.  The only man who can, perhaps, ultimately defeat the great detective ..." />
+      <meta name="dtb:sourceDate" content="2011-08-04" />
+      <meta name="Copyright" content="Arthur Conan Doyle" />
+      <meta name="DCTERMS.date.dateCopyrighted" content="2011" />
+      <meta name="dtb:sourceRights" content="Arthur Conan Doyle" />
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="xml" href="Sherlock_Holmes__The_Memoirs.xml" media-type="application/x-dtbook+xml" />
+    <item id="ncx" href="Sherlock_Holmes__The_Memoirs.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="opf" href="Sherlock_Holmes__The_Memoirs.opf" media-type="text/xml" />
+    <item id="SMIL1" href="Sherlock_Holmes__The_Memoirs00001.smil" media-type="application/smil" />
+    <item id="SMIL2" href="Sherlock_Holmes__The_Memoirs00002.smil" media-type="application/smil" />
+    <item id="SMIL3" href="Sherlock_Holmes__The_Memoirs00003.smil" media-type="application/smil" />
+    <item id="SMIL4" href="Sherlock_Holmes__The_Memoirs00004.smil" media-type="application/smil" />
+    <item id="SMIL5" href="Sherlock_Holmes__The_Memoirs00005.smil" media-type="application/smil" />
+    <item id="daisyTransform" href="daisyTransform.xsl" media-type="application/xslt+xml" />
+    <item id="daisyCss" href="daisy.css" media-type="text/css" />
+    <item id="htmlCss" href="html.css" media-type="text/css" />
+  </manifest>
+  <spine>
+    <itemref idref="SMIL1" />
+    <itemref idref="SMIL2" />
+    <itemref idref="SMIL3" />
+    <itemref idref="SMIL4" />
+    <itemref idref="SMIL5" />
+  </spine>
+</package>

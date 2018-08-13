@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package xmlns="http://openebook.org/namespaces/oeb-package/1.0/" unique-identifier="a9780755387595">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc-metadata xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Title>Sherlock Holmes: The Adventures of Sherlock Holmes (Sherlock Complete Set 3)</dc:Title>
+      <dc:Publisher>Bookshare</dc:Publisher>
+      <dc:Rights>Copyright © 2011 by Arthur Conan Doyle</dc:Rights>
+      <dc:Date>2011-08-04</dc:Date>
+      <dc:Identifier id="a9780755387595" scheme="ISBN">9780755387595</dc:Identifier>
+      <dc:Creator file-as="Doyle, Arthur Conan">Arthur Conan Doyle</dc:Creator>
+      <dc:Language>en-US</dc:Language>
+      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+      <dc:Identifier scheme="BKSH" id="bksh-id">Bookshare-1930029_21965041</dc:Identifier>
+    </dc-metadata>
+    <x-metadata>
+      <meta name="cover" content="cover-image" />
+      <meta name="srp-usd" content="6.66" />
+      <meta name="dtb:multimediaType" content="textNCX" />
+      <meta name="dtb:multimediaContent" content="text,image" />
+      <meta name="dtb:sourcePublisher" content="Headline" />
+      <meta name="Synopsis" content="&amp;apos;I have heard, Mr. Holmes, that you can see deeply into the manifold wickedness of the human heart&amp;apos;. Scandal, treachery and crime are rife in Old London Town. A king blackmailed by his mistress, dark dealings in Opium dens, stolen jewels, a missing bride - these are cases so fiendishly complex that only the great Sherlock Holmes would dare to investigate. For he, and he alone, has the extraordinary faculty of perception and almost unhuman energy which could solve them ..." />
+      <meta name="dtb:sourceDate" content="2011-08-04" />
+      <meta name="Copyright" content="Arthur Conan Doyle" />
+      <meta name="DCTERMS.date.dateCopyrighted" content="2011" />
+      <meta name="dtb:sourceRights" content="Arthur Conan Doyle" />
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="xml" href="Sherlock_Holmes__The_Adventu.xml" media-type="application/x-dtbook+xml" />
+    <item id="ncx" href="Sherlock_Holmes__The_Adventu.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="opf" href="Sherlock_Holmes__The_Adventu.opf" media-type="text/xml" />
+    <item id="SMIL1" href="Sherlock_Holmes__The_Adventu00001.smil" media-type="application/smil" />
+    <item id="SMIL2" href="Sherlock_Holmes__The_Adventu00002.smil" media-type="application/smil" />
+    <item id="SMIL3" href="Sherlock_Holmes__The_Adventu00003.smil" media-type="application/smil" />
+    <item id="SMIL4" href="Sherlock_Holmes__The_Adventu00004.smil" media-type="application/smil" />
+    <item id="SMIL5" href="Sherlock_Holmes__The_Adventu00005.smil" media-type="application/smil" />
+    <item id="SMIL6" href="Sherlock_Holmes__The_Adventu00006.smil" media-type="application/smil" />
+    <item id="SMIL7" href="Sherlock_Holmes__The_Adventu00007.smil" media-type="application/smil" />
+    <item id="daisyTransform" href="daisyTransform.xsl" media-type="application/xslt+xml" />
+    <item id="daisyCss" href="daisy.css" media-type="text/css" />
+    <item id="htmlCss" href="html.css" media-type="text/css" />
+  </manifest>
+  <spine>
+    <itemref idref="SMIL1" />
+    <itemref idref="SMIL2" />
+    <itemref idref="SMIL3" />
+    <itemref idref="SMIL4" />
+    <itemref idref="SMIL5" />
+    <itemref idref="SMIL6" />
+    <itemref idref="SMIL7" />
+  </spine>
+</package>

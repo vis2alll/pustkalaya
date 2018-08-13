@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+  <head>
+    <meta name="dtb:uid" content="9780755387632" />
+    <meta name="dtb:generator" content="Bookshare.org" />
+    <meta name="dtb:totalElapsedTime" content="0" />
+    <layout>
+      <region id="textRegion" height="auto" width="auto" bottom="auto" top="auto" left="auto" right="auto" fit="hidden" showBackground="always" />
+    </layout>
+    <customAttributes>
+      <customTest id="pagenumCustomTest" defaultState="false" override="visible" />
+    </customAttributes>
+  </head>
+  <body>
+    <seq id="baseseq" class="book" fill="remove">
+      <par id="bks_notice_001" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#bks_notice_001" region="textRegion" />
+      </par>
+      <par id="pagenum_000000" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#pagenum_000000" region="textRegion" />
+      </par>
+      <par id="img_000000" class="img">
+        <img src="images/9780755387632.jpg" />
+      </par>
+      <par id="img_000001" class="img">
+        <img src="images/art_pub1.jpg" />
+      </par>
+      <par id="img_000002" class="img">
+        <img src="images/art_pub.jpg" />
+      </par>
+      <par id="copyright-pvi" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#copyright-pvi" region="textRegion" />
+      </par>
+      <par id="p_000001" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000001" region="textRegion" />
+      </par>
+      <par id="p_000002" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000002" region="textRegion" />
+      </par>
+      <par id="p_000003" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000003" region="textRegion" />
+      </par>
+      <par id="p_000004" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000004" region="textRegion" />
+      </par>
+      <par id="p_000005" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000005" region="textRegion" />
+      </par>
+      <par id="p_000006" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000006" region="textRegion" />
+      </par>
+      <par id="p_000007" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000007" region="textRegion" />
+      </par>
+      <par id="p_000008" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000008" region="textRegion" />
+      </par>
+      <par id="p_000009" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000009" region="textRegion" />
+      </par>
+      <par id="p_000010" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000010" region="textRegion" />
+      </par>
+      <a href="http://www.headline.co.uk" external="true">
+        <par id="a_000000" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000000" region="textRegion" />
+        </par>
+      </a>
+      <a href="http://www.hachette.co.uk" external="true">
+        <par id="a_000001" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000001" region="textRegion" />
+        </par>
+      </a>
+      <par id="toc-pvii" class="h1">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#toc-pvii" region="textRegion" />
+      </par>
+      <par id="em_000000" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000000" region="textRegion" />
+      </par>
+      <par id="em_000001" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000001" region="textRegion" />
+      </par>
+      <par id="em_000002" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000002" region="textRegion" />
+      </par>
+      <par id="em_000003" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000003" region="textRegion" />
+      </par>
+      <a href="#chapter002" external="false">
+        <par id="a_000006" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000006" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter002" external="false">
+        <par id="a_000007" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000007" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter003" external="false">
+        <par id="a_000008" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000008" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter003" external="false">
+        <par id="a_000009" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000009" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter004" external="false">
+        <par id="a_000010" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000010" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter004" external="false">
+        <par id="a_000011" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000011" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter005" external="false">
+        <par id="a_000012" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000012" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter005" external="false">
+        <par id="a_000013" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000013" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter006" external="false">
+        <par id="a_000014" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000014" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter006" external="false">
+        <par id="a_000015" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000015" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter007" external="false">
+        <par id="a_000016" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000016" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter007" external="false">
+        <par id="a_000017" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000017" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter008" external="false">
+        <par id="a_000018" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000018" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter008" external="false">
+        <par id="a_000019" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000019" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter009" external="false">
+        <par id="a_000020" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000020" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter009" external="false">
+        <par id="a_000021" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000021" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter010" external="false">
+        <par id="a_000022" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000022" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter010" external="false">
+        <par id="a_000023" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000023" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter011" external="false">
+        <par id="a_000024" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000024" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter011" external="false">
+        <par id="a_000025" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000025" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter012" external="false">
+        <par id="a_000026" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000026" region="textRegion" />
+        </par>
+      </a>
+      <a href="#chapter012" external="false">
+        <par id="a_000027" class="a">
+          <text src="Sherlock_Holmes__The_Memoirs.xml#a_000027" region="textRegion" />
+        </par>
+      </a>
+      <par id="h1_000000" class="h1">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#h1_000000" region="textRegion" />
+      </par>
+      <par id="span_000000" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000000" region="textRegion" />
+      </par>
+      <par id="em_000004" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000004" region="textRegion" />
+      </par>
+      <par id="span_000001" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000001" region="textRegion" />
+      </par>
+      <par id="p_000013" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000013" region="textRegion" />
+      </par>
+      <par id="span_000002" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000002" region="textRegion" />
+      </par>
+      <par id="em_000005" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000005" region="textRegion" />
+      </par>
+      <par id="span_000003" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000003" region="textRegion" />
+      </par>
+      <par id="span_000004" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000004" region="textRegion" />
+      </par>
+      <par id="em_000006" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000006" region="textRegion" />
+      </par>
+      <par id="span_000005" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000005" region="textRegion" />
+      </par>
+      <par id="span_000006" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000006" region="textRegion" />
+      </par>
+      <par id="em_000007" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000007" region="textRegion" />
+      </par>
+      <par id="span_000007" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000007" region="textRegion" />
+      </par>
+      <par id="em_000008" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000008" region="textRegion" />
+      </par>
+      <par id="span_000008" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000008" region="textRegion" />
+      </par>
+      <par id="em_000009" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000009" region="textRegion" />
+      </par>
+      <par id="span_000009" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000009" region="textRegion" />
+      </par>
+      <par id="em_000010" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000010" region="textRegion" />
+      </par>
+      <par id="span_000010" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000010" region="textRegion" />
+      </par>
+      <par id="em_000011" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000011" region="textRegion" />
+      </par>
+      <par id="span_000011" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000011" region="textRegion" />
+      </par>
+      <par id="span_000012" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000012" region="textRegion" />
+      </par>
+      <par id="em_000012" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000012" region="textRegion" />
+      </par>
+      <par id="span_000013" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000013" region="textRegion" />
+      </par>
+      <par id="em_000013" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000013" region="textRegion" />
+      </par>
+      <par id="span_000014" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000014" region="textRegion" />
+      </par>
+      <par id="em_000014" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000014" region="textRegion" />
+      </par>
+      <par id="span_000015" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000015" region="textRegion" />
+      </par>
+      <par id="em_000015" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000015" region="textRegion" />
+      </par>
+      <par id="span_000016" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000016" region="textRegion" />
+      </par>
+      <par id="em_000016" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000016" region="textRegion" />
+      </par>
+      <par id="span_000017" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000017" region="textRegion" />
+      </par>
+      <par id="em_000017" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000017" region="textRegion" />
+      </par>
+      <par id="span_000018" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000018" region="textRegion" />
+      </par>
+      <par id="p_000016" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000016" region="textRegion" />
+      </par>
+      <par id="bytheauthor-piv" class="h1">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#bytheauthor-piv" region="textRegion" />
+      </par>
+      <par id="em_000018" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000018" region="textRegion" />
+      </par>
+      <par id="p_000018" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000018" region="textRegion" />
+      </par>
+      <par id="p_000019" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000019" region="textRegion" />
+      </par>
+      <par id="p_000020" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000020" region="textRegion" />
+      </par>
+      <par id="p_000021" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000021" region="textRegion" />
+      </par>
+      <par id="p_000022" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000022" region="textRegion" />
+      </par>
+      <par id="p_000023" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000023" region="textRegion" />
+      </par>
+      <par id="p_000024" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000024" region="textRegion" />
+      </par>
+      <par id="p_000025" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000025" region="textRegion" />
+      </par>
+      <par id="p_000026" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000026" region="textRegion" />
+      </par>
+      <par id="p_000027" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000027" region="textRegion" />
+      </par>
+      <par id="p_000028" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000028" region="textRegion" />
+      </par>
+      <par id="p_000029" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000029" region="textRegion" />
+      </par>
+      <par id="chapter002-pviii" class="h1">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-pviii" region="textRegion" />
+      </par>
+      <par id="span_000019" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000019" region="textRegion" />
+      </par>
+      <par id="span_000020" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000020" region="textRegion" />
+      </par>
+      <par id="p_000031" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000031" region="textRegion" />
+      </par>
+      <par id="p_000032" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000032" region="textRegion" />
+      </par>
+      <par id="p_000033" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000033" region="textRegion" />
+      </par>
+      <par id="chapter002-p2" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p2" region="textRegion" />
+      </par>
+      <par id="p_000034" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000034" region="textRegion" />
+      </par>
+      <par id="span_000021" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000021" region="textRegion" />
+      </par>
+      <par id="em_000020" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000020" region="textRegion" />
+      </par>
+      <par id="span_000022" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000022" region="textRegion" />
+      </par>
+      <par id="p_000036" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000036" region="textRegion" />
+      </par>
+      <par id="p_000037" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000037" region="textRegion" />
+      </par>
+      <par id="p_000038" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000038" region="textRegion" />
+      </par>
+      <par id="span_000023" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000023" region="textRegion" />
+      </par>
+      <par id="em_000021" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000021" region="textRegion" />
+      </par>
+      <par id="span_000024" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000024" region="textRegion" />
+      </par>
+      <par id="em_000022" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000022" region="textRegion" />
+      </par>
+      <par id="span_000025" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000025" region="textRegion" />
+      </par>
+      <par id="chapter002-p3" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p3" region="textRegion" />
+      </par>
+      <par id="p_000040" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000040" region="textRegion" />
+      </par>
+      <par id="p_000041" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000041" region="textRegion" />
+      </par>
+      <par id="p_000042" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000042" region="textRegion" />
+      </par>
+      <par id="p_000043" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000043" region="textRegion" />
+      </par>
+      <par id="chapter002-p4" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p4" region="textRegion" />
+      </par>
+      <par id="p_000044" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000044" region="textRegion" />
+      </par>
+      <par id="chapter002-p5" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p5" region="textRegion" />
+      </par>
+      <par id="p_000045" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000045" region="textRegion" />
+      </par>
+      <par id="p_000046" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000046" region="textRegion" />
+      </par>
+      <par id="p_000047" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000047" region="textRegion" />
+      </par>
+      <par id="chapter002-p6" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p6" region="textRegion" />
+      </par>
+      <par id="p_000048" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000048" region="textRegion" />
+      </par>
+      <par id="p_000049" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000049" region="textRegion" />
+      </par>
+      <par id="p_000050" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000050" region="textRegion" />
+      </par>
+      <par id="p_000051" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000051" region="textRegion" />
+      </par>
+      <par id="p_000052" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000052" region="textRegion" />
+      </par>
+      <par id="chapter002-p7" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p7" region="textRegion" />
+      </par>
+      <par id="p_000053" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000053" region="textRegion" />
+      </par>
+      <par id="p_000054" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000054" region="textRegion" />
+      </par>
+      <par id="p_000055" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000055" region="textRegion" />
+      </par>
+      <par id="p_000056" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000056" region="textRegion" />
+      </par>
+      <par id="chapter002-p8" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p8" region="textRegion" />
+      </par>
+      <par id="p_000057" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000057" region="textRegion" />
+      </par>
+      <par id="p_000058" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000058" region="textRegion" />
+      </par>
+      <par id="chapter002-p9" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p9" region="textRegion" />
+      </par>
+      <par id="p_000059" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000059" region="textRegion" />
+      </par>
+      <par id="p_000060" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000060" region="textRegion" />
+      </par>
+      <par id="chapter002-p10" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p10" region="textRegion" />
+      </par>
+      <par id="p_000061" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000061" region="textRegion" />
+      </par>
+      <par id="p_000062" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000062" region="textRegion" />
+      </par>
+      <par id="p_000063" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000063" region="textRegion" />
+      </par>
+      <par id="p_000064" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000064" region="textRegion" />
+      </par>
+      <par id="p_000065" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000065" region="textRegion" />
+      </par>
+      <par id="chapter002-p11" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p11" region="textRegion" />
+      </par>
+      <par id="p_000066" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000066" region="textRegion" />
+      </par>
+      <par id="p_000067" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000067" region="textRegion" />
+      </par>
+      <par id="p_000068" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000068" region="textRegion" />
+      </par>
+      <par id="p_000069" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000069" region="textRegion" />
+      </par>
+      <par id="chapter002-p12" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p12" region="textRegion" />
+      </par>
+      <par id="p_000070" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000070" region="textRegion" />
+      </par>
+      <par id="p_000071" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000071" region="textRegion" />
+      </par>
+      <par id="p_000072" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000072" region="textRegion" />
+      </par>
+      <par id="p_000073" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000073" region="textRegion" />
+      </par>
+      <par id="p_000074" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000074" region="textRegion" />
+      </par>
+      <par id="chapter002-p13" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p13" region="textRegion" />
+      </par>
+      <par id="p_000075" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000075" region="textRegion" />
+      </par>
+      <par id="p_000076" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000076" region="textRegion" />
+      </par>
+      <par id="p_000077" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000077" region="textRegion" />
+      </par>
+      <par id="p_000078" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000078" region="textRegion" />
+      </par>
+      <par id="p_000079" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000079" region="textRegion" />
+      </par>
+      <par id="p_000080" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000080" region="textRegion" />
+      </par>
+      <par id="p_000081" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000081" region="textRegion" />
+      </par>
+      <par id="p_000082" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000082" region="textRegion" />
+      </par>
+      <par id="chapter002-p14" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p14" region="textRegion" />
+      </par>
+      <par id="p_000083" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000083" region="textRegion" />
+      </par>
+      <par id="p_000084" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000084" region="textRegion" />
+      </par>
+      <par id="p_000085" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000085" region="textRegion" />
+      </par>
+      <par id="p_000086" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000086" region="textRegion" />
+      </par>
+      <par id="p_000087" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000087" region="textRegion" />
+      </par>
+      <par id="p_000088" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000088" region="textRegion" />
+      </par>
+      <par id="p_000089" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000089" region="textRegion" />
+      </par>
+      <par id="p_000090" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000090" region="textRegion" />
+      </par>
+      <par id="chapter002-p15" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p15" region="textRegion" />
+      </par>
+      <par id="p_000091" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000091" region="textRegion" />
+      </par>
+      <par id="p_000092" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000092" region="textRegion" />
+      </par>
+      <par id="p_000093" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000093" region="textRegion" />
+      </par>
+      <par id="p_000094" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000094" region="textRegion" />
+      </par>
+      <par id="p_000095" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000095" region="textRegion" />
+      </par>
+      <par id="p_000096" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000096" region="textRegion" />
+      </par>
+      <par id="p_000097" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000097" region="textRegion" />
+      </par>
+      <par id="p_000098" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000098" region="textRegion" />
+      </par>
+      <par id="p_000099" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000099" region="textRegion" />
+      </par>
+      <par id="chapter002-p16" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p16" region="textRegion" />
+      </par>
+      <par id="p_000100" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000100" region="textRegion" />
+      </par>
+      <par id="p_000101" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000101" region="textRegion" />
+      </par>
+      <par id="p_000102" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000102" region="textRegion" />
+      </par>
+      <par id="p_000103" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000103" region="textRegion" />
+      </par>
+      <par id="p_000104" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000104" region="textRegion" />
+      </par>
+      <par id="p_000105" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000105" region="textRegion" />
+      </par>
+      <par id="p_000106" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000106" region="textRegion" />
+      </par>
+      <par id="p_000107" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000107" region="textRegion" />
+      </par>
+      <par id="p_000108" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000108" region="textRegion" />
+      </par>
+      <par id="p_000109" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000109" region="textRegion" />
+      </par>
+      <par id="chapter002-p17" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p17" region="textRegion" />
+      </par>
+      <par id="p_000110" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000110" region="textRegion" />
+      </par>
+      <par id="p_000111" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000111" region="textRegion" />
+      </par>
+      <par id="p_000112" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000112" region="textRegion" />
+      </par>
+      <par id="p_000113" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000113" region="textRegion" />
+      </par>
+      <par id="p_000114" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000114" region="textRegion" />
+      </par>
+      <par id="p_000115" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000115" region="textRegion" />
+      </par>
+      <par id="p_000116" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000116" region="textRegion" />
+      </par>
+      <par id="p_000117" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000117" region="textRegion" />
+      </par> 
+      <par id="p_000118" class="p"> 
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000118" region="textRegion" />
+      </par> 
+      <par id="p_000119" class="p">  
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000119" region="textRegion" />
+      </par>   
+      <par id="p_000120" class="p">  
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000120" region="textRegion" />
+      </par>   
+      <par id="p_000121" class="p">   
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000121" region="textRegion" />
+      </par>
+      <par id="p_000122" class="p"> 
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000122" region="textRegion" />
+      </par> 
+      <par id="p_000123" class="p"> 
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000123" region="textRegion" />
+      </par>   
+      <par id="chapter002-p18" class="p"> 
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p18" region="textRegion" />
+      </par>   
+      <par id="p_000124" class="p">  
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000124" region="textRegion" />
+      </par>   
+      <par id="p_000125" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000125" region="textRegion" />
+      </par>   
+      <par id="p_000126" class="p">   
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000126" region="textRegion" />
+      </par>  
+      <par id="p_000127" class="p">  
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000127" region="textRegion" />
+      </par> 
+      <par id="p_000128" class="p">   
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000128" region="textRegion" />
+      </par> 
+      <par id="p_000129" class="p">    
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000129" region="textRegion" />
+      </par>
+      <par id="chapter002-p19" class="p"> 
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p19" region="textRegion" />
+      </par>    
+      <par id="p_000130" class="p">  
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000130" region="textRegion" />
+      </par>  
+      <par id="p_000131" class="p">  
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000131" region="textRegion" />
+      </par>    
+      <par id="p_000132" class="p">   
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000132" region="textRegion" />
+      </par>    
+      <par id="p_000133" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000133" region="textRegion" />
+      </par>
+      <par id="chapter002-p20" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p20" region="textRegion" />
+      </par>
+      <par id="p_000134" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000134" region="textRegion" />
+      </par>
+      <par id="p_000135" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000135" region="textRegion" />
+      </par>
+      <par id="p_000136" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000136" region="textRegion" />
+      </par>
+      <par id="p_000137" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000137" region="textRegion" />
+      </par>
+      <par id="p_000138" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000138" region="textRegion" />
+      </par>
+      <par id="p_000139" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000139" region="textRegion" />
+      </par>
+      <par id="p_000140" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000140" region="textRegion" />
+      </par>
+      <par id="p_000141" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000141" region="textRegion" />
+      </par>
+      <par id="chapter002-p21" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p21" region="textRegion" />
+      </par>
+      <par id="p_000142" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000142" region="textRegion" />
+      </par>
+      <par id="p_000143" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000143" region="textRegion" />
+      </par>
+      <par id="p_000144" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000144" region="textRegion" />
+      </par>
+      <par id="p_000145" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000145" region="textRegion" />
+      </par>
+      <par id="p_000146" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000146" region="textRegion" />
+      </par>
+      <par id="p_000147" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000147" region="textRegion" />
+      </par>
+      <par id="p_000148" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000148" region="textRegion" />
+      </par>
+      <par id="p_000149" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000149" region="textRegion" />
+      </par>
+      <par id="p_000150" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000150" region="textRegion" />
+      </par>
+      <par id="p_000151" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000151" region="textRegion" />
+      </par>
+      <par id="p_000152" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000152" region="textRegion" />
+      </par>
+      <par id="p_000153" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000153" region="textRegion" />
+      </par>
+      <par id="chapter002-p22" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p22" region="textRegion" />
+      </par>
+      <par id="p_000154" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000154" region="textRegion" />
+      </par>
+      <par id="p_000155" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000155" region="textRegion" />
+      </par>
+      <par id="p_000156" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000156" region="textRegion" />
+      </par>
+      <par id="p_000157" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000157" region="textRegion" />
+      </par>
+      <par id="p_000158" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000158" region="textRegion" />
+      </par>
+      <par id="p_000159" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000159" region="textRegion" />
+      </par>
+      <par id="p_000160" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000160" region="textRegion" />
+      </par>
+      <par id="chapter002-p23" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p23" region="textRegion" />
+      </par>
+      <par id="p_000161" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000161" region="textRegion" />
+      </par>
+      <par id="p_000162" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000162" region="textRegion" />
+      </par>
+      <par id="p_000163" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000163" region="textRegion" />
+      </par>
+      <par id="p_000164" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000164" region="textRegion" />
+      </par>
+      <par id="p_000165" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000165" region="textRegion" />
+      </par>
+      <par id="p_000166" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000166" region="textRegion" />
+      </par>
+      <par id="p_000167" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000167" region="textRegion" />
+      </par>
+      <par id="p_000168" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000168" region="textRegion" />
+      </par>
+      <par id="p_000169" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000169" region="textRegion" />
+      </par>
+      <par id="p_000170" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000170" region="textRegion" />
+      </par>
+      <par id="p_000171" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000171" region="textRegion" />
+      </par>
+      <par id="chapter002-p24" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p24" region="textRegion" />
+      </par>
+      <par id="p_000172" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000172" region="textRegion" />
+      </par>
+      <par id="p_000173" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000173" region="textRegion" />
+      </par>
+      <par id="p_000174" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000174" region="textRegion" />
+      </par>
+      <par id="p_000175" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000175" region="textRegion" />
+      </par>
+      <par id="p_000176" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000176" region="textRegion" />
+      </par>
+      <par id="p_000177" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000177" region="textRegion" />
+      </par>
+      <par id="p_000178" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000178" region="textRegion" />
+      </par>
+      <par id="p_000179" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000179" region="textRegion" />
+      </par>
+      <par id="p_000180" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000180" region="textRegion" />
+      </par>
+      <par id="p_000181" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000181" region="textRegion" />
+      </par>
+      <par id="p_000182" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000182" region="textRegion" />
+      </par>
+      <par id="p_000183" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000183" region="textRegion" />
+      </par>
+      <par id="chapter002-p25" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p25" region="textRegion" />
+      </par>
+      <par id="p_000184" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000184" region="textRegion" />
+      </par>
+      <par id="p_000185" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000185" region="textRegion" />
+      </par>
+      <par id="p_000186" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000186" region="textRegion" />
+      </par>
+      <par id="p_000187" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000187" region="textRegion" />
+      </par>
+      <par id="p_000188" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000188" region="textRegion" />
+      </par>
+      <par id="p_000189" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000189" region="textRegion" />
+      </par>
+      <par id="p_000190" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000190" region="textRegion" />
+      </par>
+      <par id="p_000191" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000191" region="textRegion" />
+      </par>
+      <par id="p_000192" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000192" region="textRegion" />
+      </par>
+      <par id="p_000193" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000193" region="textRegion" />
+      </par>
+      <par id="p_000194" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000194" region="textRegion" />
+      </par>
+      <par id="p_000195" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000195" region="textRegion" />
+      </par>
+      <par id="p_000196" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000196" region="textRegion" />
+      </par>
+      <par id="chapter002-p26" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p26" region="textRegion" />
+      </par>
+      <par id="p_000197" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000197" region="textRegion" />
+      </par>
+      <par id="p_000198" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000198" region="textRegion" />
+      </par>
+      <par id="p_000199" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000199" region="textRegion" />
+      </par>
+      <par id="p_000200" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000200" region="textRegion" />
+      </par>
+      <par id="p_000201" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000201" region="textRegion" />
+      </par>
+      <par id="p_000202" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000202" region="textRegion" />
+      </par>
+      <par id="p_000203" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000203" region="textRegion" />
+      </par>
+      <par id="p_000204" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000204" region="textRegion" />
+      </par>
+      <par id="p_000205" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000205" region="textRegion" />
+      </par>
+      <par id="p_000206" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000206" region="textRegion" />
+      </par>
+      <par id="p_000207" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000207" region="textRegion" />
+      </par>
+      <par id="p_000208" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000208" region="textRegion" />
+      </par>
+      <par id="chapter002-p27" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p27" region="textRegion" />
+      </par>
+      <par id="p_000209" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000209" region="textRegion" />
+      </par>
+      <par id="p_000210" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000210" region="textRegion" />
+      </par>
+      <par id="p_000211" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000211" region="textRegion" />
+      </par>
+      <par id="p_000212" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000212" region="textRegion" />
+      </par>
+      <par id="p_000213" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000213" region="textRegion" />
+      </par>
+      <par id="p_000214" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000214" region="textRegion" />
+      </par>
+      <par id="p_000215" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000215" region="textRegion" />
+      </par>
+      <par id="p_000216" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000216" region="textRegion" />
+      </par>
+      <par id="chapter002-p28" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p28" region="textRegion" />
+      </par>
+      <par id="p_000217" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000217" region="textRegion" />
+      </par>
+      <par id="p_000218" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000218" region="textRegion" />
+      </par>
+      <par id="p_000219" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000219" region="textRegion" />
+      </par>
+      <par id="p_000220" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000220" region="textRegion" />
+      </par>
+      <par id="p_000221" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000221" region="textRegion" />
+      </par>
+      <par id="p_000222" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000222" region="textRegion" />
+      </par>
+      <par id="p_000223" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000223" region="textRegion" />
+      </par>
+      <par id="p_000224" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000224" region="textRegion" />
+      </par>
+      <par id="p_000225" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000225" region="textRegion" />
+      </par>
+      <par id="p_000226" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000226" region="textRegion" />
+      </par>
+      <par id="p_000227" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000227" region="textRegion" />
+      </par>
+      <par id="p_000228" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000228" region="textRegion" />
+      </par>
+      <par id="chapter002-p29" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p29" region="textRegion" />
+      </par>
+      <par id="p_000229" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000229" region="textRegion" />
+      </par>
+      <par id="p_000230" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000230" region="textRegion" />
+      </par>
+      <par id="p_000231" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000231" region="textRegion" />
+      </par>
+      <par id="p_000232" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000232" region="textRegion" />
+      </par>
+      <par id="chapter002-p30" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p30" region="textRegion" />
+      </par>
+      <par id="p_000233" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000233" region="textRegion" />
+      </par>
+      <par id="p_000234" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000234" region="textRegion" />
+      </par>
+      <par id="chapter002-p31" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p31" region="textRegion" />
+      </par>
+      <par id="p_000235" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000235" region="textRegion" />
+      </par>
+      <par id="p_000236" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000236" region="textRegion" />
+      </par>
+      <par id="p_000237" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000237" region="textRegion" />
+      </par>
+      <par id="chapter002-p32" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p32" region="textRegion" />
+      </par>
+      <par id="p_000238" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000238" region="textRegion" />
+      </par>
+      <par id="p_000239" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000239" region="textRegion" />
+      </par>
+      <par id="p_000240" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000240" region="textRegion" />
+      </par>
+      <par id="p_000241" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000241" region="textRegion" />
+      </par>
+      <par id="p_000242" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000242" region="textRegion" />
+      </par>
+      <par id="p_000243" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000243" region="textRegion" />
+      </par>
+      <par id="chapter002-p33" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter002-p33" region="textRegion" />
+      </par>
+      <par id="chapter003-p34" class="h1">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p34" region="textRegion" />
+      </par>
+      <par id="span_000026" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000026" region="textRegion" />
+      </par>
+      <par id="span_000027" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000027" region="textRegion" />
+      </par>
+      <par id="chapter003-p36" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p36" region="textRegion" />
+      </par>
+      <par id="p_000245" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000245" region="textRegion" />
+      </par>
+      <par id="p_000246" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000246" region="textRegion" />
+      </par>
+      <par id="p_000247" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000247" region="textRegion" />
+      </par>
+      <par id="p_000248" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000248" region="textRegion" />
+      </par>
+      <par id="p_000249" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000249" region="textRegion" />
+      </par>
+      <par id="p_000250" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000250" region="textRegion" />
+      </par>
+      <par id="p_000251" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000251" region="textRegion" />
+      </par>
+      <par id="p_000252" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000252" region="textRegion" />
+      </par>
+      <par id="chapter003-p37" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p37" region="textRegion" />
+      </par>
+      <par id="p_000253" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000253" region="textRegion" />
+      </par>
+      <par id="p_000254" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000254" region="textRegion" />
+      </par>
+      <par id="p_000255" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000255" region="textRegion" />
+      </par>
+      <par id="p_000256" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000256" region="textRegion" />
+      </par>
+      <par id="p_000257" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000257" region="textRegion" />
+      </par>
+      <par id="p_000258" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000258" region="textRegion" />
+      </par>
+      <par id="chapter003-p38" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p38" region="textRegion" />
+      </par>
+      <par id="p_000259" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000259" region="textRegion" />
+      </par>
+      <par id="p_000260" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000260" region="textRegion" />
+      </par>
+      <par id="p_000261" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000261" region="textRegion" />
+      </par>
+      <par id="p_000262" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000262" region="textRegion" />
+      </par>
+      <par id="p_000263" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000263" region="textRegion" />
+      </par>
+      <par id="chapter003-p39" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p39" region="textRegion" />
+      </par>
+      <par id="p_000264" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000264" region="textRegion" />
+      </par>
+      <par id="p_000265" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000265" region="textRegion" />
+      </par>
+      <par id="p_000266" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000266" region="textRegion" />
+      </par>
+      <par id="p_000267" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000267" region="textRegion" />
+      </par>
+      <par id="p_000268" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000268" region="textRegion" />
+      </par>
+      <par id="p_000269" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000269" region="textRegion" />
+      </par>
+      <par id="p_000270" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000270" region="textRegion" />
+      </par>
+      <par id="span_000028" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000028" region="textRegion" />
+      </par>
+      <par id="em_000024" class="em">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#em_000024" region="textRegion" />
+      </par>
+      <par id="span_000029" class="span">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#span_000029" region="textRegion" />
+      </par>
+      <par id="chapter003-p40" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p40" region="textRegion" />
+      </par>
+      <par id="p_000272" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000272" region="textRegion" />
+      </par>
+      <par id="p_000273" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000273" region="textRegion" />
+      </par>
+      <par id="p_000274" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000274" region="textRegion" />
+      </par>
+      <par id="chapter003-p41" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p41" region="textRegion" />
+      </par>
+      <par id="p_000275" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000275" region="textRegion" />
+      </par>
+      <par id="p_000276" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000276" region="textRegion" />
+      </par>
+      <par id="p_000277" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000277" region="textRegion" />
+      </par>
+      <par id="p_000278" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000278" region="textRegion" />
+      </par>
+      <par id="p_000279" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000279" region="textRegion" />
+      </par>
+      <par id="chapter003-p42" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p42" region="textRegion" />
+      </par>
+      <par id="p_000280" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000280" region="textRegion" />
+      </par>
+      <par id="p_000281" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000281" region="textRegion" />
+      </par>
+      <par id="p_000282" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000282" region="textRegion" />
+      </par>
+      <par id="p_000283" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000283" region="textRegion" />
+      </par>
+      <par id="p_000284" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000284" region="textRegion" />
+      </par>
+      <par id="p_000285" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000285" region="textRegion" />
+      </par>
+      <par id="p_000286" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000286" region="textRegion" />
+      </par>
+      <par id="p_000287" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000287" region="textRegion" />
+      </par>
+      <par id="chapter003-p43" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p43" region="textRegion" />
+      </par>
+      <par id="p_000288" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000288" region="textRegion" />
+      </par>
+      <par id="p_000289" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000289" region="textRegion" />
+      </par>
+      <par id="p_000290" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000290" region="textRegion" />
+      </par>
+      <par id="chapter003-p44" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p44" region="textRegion" />
+      </par>
+      <par id="p_000291" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000291" region="textRegion" />
+      </par>
+      <par id="chapter003-p45" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p45" region="textRegion" />
+      </par>
+      <par id="p_000292" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000292" region="textRegion" />
+      </par>
+      <par id="p_000293" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000293" region="textRegion" />
+      </par>
+      <par id="p_000294" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000294" region="textRegion" />
+      </par>
+      <par id="p_000295" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000295" region="textRegion" />
+      </par>
+      <par id="p_000296" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000296" region="textRegion" />
+      </par>
+      <par id="chapter003-p46" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p46" region="textRegion" />
+      </par>
+      <par id="p_000297" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000297" region="textRegion" />
+      </par>
+      <par id="p_000298" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000298" region="textRegion" />
+      </par>
+      <par id="p_000299" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000299" region="textRegion" />
+      </par>
+      <par id="p_000300" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000300" region="textRegion" />
+      </par>
+      <par id="p_000301" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000301" region="textRegion" />
+      </par>
+      <par id="p_000302" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000302" region="textRegion" />
+      </par>
+      <par id="chapter003-p47" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p47" region="textRegion" />
+      </par>
+      <par id="p_000303" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000303" region="textRegion" />
+      </par>
+      <par id="p_000304" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000304" region="textRegion" />
+      </par>
+      <par id="p_000305" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000305" region="textRegion" />
+      </par>
+      <par id="p_000306" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000306" region="textRegion" />
+      </par>
+      <par id="p_000307" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000307" region="textRegion" />
+      </par>
+      <par id="p_000308" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000308" region="textRegion" />
+      </par>
+      <par id="p_000309" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000309" region="textRegion" />
+      </par>
+      <par id="chapter003-p48" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p48" region="textRegion" />
+      </par>
+      <par id="p_000310" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000310" region="textRegion" />
+      </par>
+      <par id="p_000311" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000311" region="textRegion" />
+      </par>
+      <par id="p_000312" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000312" region="textRegion" />
+      </par>
+      <par id="p_000313" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000313" region="textRegion" />
+      </par>
+      <par id="chapter003-p49" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p49" region="textRegion" />
+      </par>
+      <par id="p_000314" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000314" region="textRegion" />
+      </par>
+      <par id="p_000315" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000315" region="textRegion" />
+      </par>
+      <par id="p_000316" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000316" region="textRegion" />
+      </par>
+      <par id="p_000317" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000317" region="textRegion" />
+      </par>
+      <par id="p_000318" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000318" region="textRegion" />
+      </par>
+      <par id="chapter003-p50" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p50" region="textRegion" />
+      </par>
+      <par id="p_000319" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000319" region="textRegion" />
+      </par>
+      <par id="p_000320" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000320" region="textRegion" />
+      </par>
+      <par id="p_000321" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000321" region="textRegion" />
+      </par>
+      <par id="p_000322" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000322" region="textRegion" />
+      </par>
+      <par id="p_000323" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000323" region="textRegion" />
+      </par>
+      <par id="p_000324" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000324" region="textRegion" />
+      </par>
+      <par id="p_000325" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000325" region="textRegion" />
+      </par>
+      <par id="p_000326" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000326" region="textRegion" />
+      </par>
+      <par id="p_000327" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000327" region="textRegion" />
+      </par>
+      <par id="chapter003-p51" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p51" region="textRegion" />
+      </par>
+      <par id="p_000328" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000328" region="textRegion" />
+      </par>
+      <par id="p_000329" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000329" region="textRegion" />
+      </par>
+      <par id="p_000330" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000330" region="textRegion" />
+      </par>
+      <par id="p_000331" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000331" region="textRegion" />
+      </par>
+      <par id="p_000332" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000332" region="textRegion" />
+      </par>
+      <par id="p_000333" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000333" region="textRegion" />
+      </par>
+      <par id="p_000334" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000334" region="textRegion" />
+      </par>
+      <par id="p_000335" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000335" region="textRegion" />
+      </par>
+      <par id="p_000336" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000336" region="textRegion" />
+      </par>
+      <par id="p_000337" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000337" region="textRegion" />
+      </par>
+      <par id="p_000338" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000338" region="textRegion" />
+      </par>
+      <par id="p_000339" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000339" region="textRegion" />
+      </par>
+      <par id="p_000340" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000340" region="textRegion" />
+      </par>
+      <par id="p_000341" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000341" region="textRegion" />
+      </par>
+      <par id="chapter003-p52" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p52" region="textRegion" />
+      </par>
+      <par id="p_000342" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000342" region="textRegion" />
+      </par>
+      <par id="p_000343" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000343" region="textRegion" />
+      </par>
+      <par id="p_000344" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000344" region="textRegion" />
+      </par>
+      <par id="chapter003-p53" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p53" region="textRegion" />
+      </par>
+      <par id="p_000345" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000345" region="textRegion" />
+      </par>
+      <par id="p_000346" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000346" region="textRegion" />
+      </par>
+      <par id="p_000347" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000347" region="textRegion" />
+      </par>
+      <par id="p_000348" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000348" region="textRegion" />
+      </par>
+      <par id="p_000349" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000349" region="textRegion" />
+      </par>
+      <par id="p_000350" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000350" region="textRegion" />
+      </par>
+      <par id="p_000351" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000351" region="textRegion" />
+      </par>
+      <par id="chapter003-p54" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p54" region="textRegion" />
+      </par>
+      <par id="p_000352" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000352" region="textRegion" />
+      </par>
+      <par id="p_000353" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000353" region="textRegion" />
+      </par>
+      <par id="p_000354" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000354" region="textRegion" />
+      </par>
+      <par id="p_000355" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000355" region="textRegion" />
+      </par>
+      <par id="p_000356" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000356" region="textRegion" />
+      </par>
+      <par id="p_000357" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000357" region="textRegion" />
+      </par>
+      <par id="p_000358" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000358" region="textRegion" />
+      </par>
+      <par id="p_000359" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000359" region="textRegion" />
+      </par>
+      <par id="chapter003-p55" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p55" region="textRegion" />
+      </par>
+      <par id="p_000360" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000360" region="textRegion" />
+      </par>
+      <par id="p_000361" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000361" region="textRegion" />
+      </par>
+      <par id="p_000362" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000362" region="textRegion" />
+      </par>
+      <par id="p_000363" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000363" region="textRegion" />
+      </par>
+      <par id="chapter003-p56" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p56" region="textRegion" />
+      </par>
+      <par id="p_000364" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000364" region="textRegion" />
+      </par>
+      <par id="p_000365" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000365" region="textRegion" />
+      </par>
+      <par id="p_000366" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000366" region="textRegion" />
+      </par>
+      <par id="chapter003-p57" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#chapter003-p57" region="textRegion" />
+      </par>
+      <par id="p_000367" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000367" region="textRegion" />
+      </par>
+      <par id="p_000368" class="p">
+        <text src="Sherlock_Holmes__The_Memoirs.xml#p_000368" region="textRegion" />
+      </par>
+    </seq>
+  </body>
+</smil>
+

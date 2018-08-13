@@ -90,9 +90,11 @@ class Bookshare():
 
             if(data.status_code == 200):       
                 parsedData = minidom.parseString(data.text.encode('utf-8'));
+                xml=parsedData.toxml('utf-8')
                 books = parsedData.getElementsByTagName('result')
                 if(len(books) == 0):
-                    pass
+                    self.book_repo=[[xml]]
+                    return
                 else:
                     for book in books:
                         row=[]
